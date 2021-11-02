@@ -1,0 +1,168 @@
+
+
+* {
+    box-sizing: border-box;
+}
+.brun {
+    background-color: rgb(65, 41, 14);
+}
+.marron {
+    background-color: rgb(107, 57, 0);
+}
+.bordeaux {
+    background-color: rgb(151, 0, 0);
+}
+.rouge {
+    background-color: red;
+}
+.orange {
+    background-color: orangered;
+}
+.orangeClair {
+    background-color: orange;
+}
+.jaune {
+    background-color: yellow;
+}
+.vertClair {
+    background-color: rgb(0, 246, 0) ;
+}
+.vertFonce {
+    background-color: green;
+}
+.bleuFonce {
+    background-color: blue;
+}
+.bleuClair {
+    background-color: rgb(141, 154, 231);
+}
+
+.lavande {
+    background-color: lavender;
+}
+/* .mx-auto : centrer un contenu ,x signifie horizontalement */
+.mx-auto {
+    margin: auto;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*flex-wrap: wrap va permettre de donner comme indication que s'il ny a pas assez de place le contenu doit aller à la ligne*/
+}
+
+.gras {
+ font-weight: bold;
+ font-size: 2em;
+}
+/* notre grille de 12 colonnes */
+/* On définit la largeur des colonnes en pourcentage 
+:on calcule la première colonne =100/12
+*/
+.col-1 {
+    width: 8.33333%;
+    padding: 4px;
+}
+
+.col-2 {
+    width: 16.333333%;
+    padding: 4px;
+}
+.col-3 {
+    width: 25%;
+    padding: 4px;
+}
+
+.col-4 {
+    width: 33.333333%;
+    padding: 4px;
+}
+
+.col-5 {
+    width: 41.666666%;
+    padding: 4px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 4px;
+}
+
+.col-7 {
+    width: 58.333333%;
+    padding: 4px;
+}
+
+.col-8 {
+    width:66.666666%;
+    padding: 4px;
+}
+
+.col-9 {
+    width: 75%;
+    padding: 4px;
+}
+
+.col-10{
+    width: 83.333333%;
+    padding: 4px;
+}
+
+.col-11 {
+    width: 91.666666%;
+    padding: 4px;
+}
+
+.col-12 {
+    width: 100%;
+    padding: 4px;
+}
+
+.droite {
+    background-color: rosybrown;
+}
+.gauche {
+    background-color: royalblue;
+}
+
+header{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+}
+header h1{
+    color: white;
+    font-size: 3em;
+
+}
+
+main {
+    height: 250px;
+}
+
+aside {
+    background-color: lightseagreen;
+}
+
+section {
+    background-color: lightskyblue;
+    color: white;
+}
+li {
+    list-style-type: none;
+}
+footer{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: pink;
+    color: white;
+}
+   
+/* ma grille en flex */

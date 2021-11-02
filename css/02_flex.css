@@ -1,0 +1,41 @@
+.rouge {
+   
+    background-color: red;
+  
+}
+
+.orange {
+    
+    background-color: orangered;
+ 
+}
+
+.orangeClair {
+  background-color: orange;
+    
+}
+
+.jaune {
+    background-color: rgb(225, 230, 0);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    /* grâce au display: flex associé à flex-direction: row,on affiche les éléments enfants de notre section en rangée, les uns à côté des autres*/
+}
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+.colomns {
+    display: flex;
+    flex-direction: column;/*rendu par défaut*/
+}
+
+.colomns-inverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+

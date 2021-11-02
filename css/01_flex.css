@@ -1,0 +1,106 @@
+body{
+    background-color: seashell;
+}
+/*Flexbox est une solution pour aligner les éléments de façon horizontale mais aussi verticale 
+
+Comme float,flex va permettre d'afficher les élèments les uns à côté des autres*/
+
+.rouge {
+    width: 100px;
+    background-color: red;
+    color: white;
+}
+
+.orange {
+    width: 100px;
+    background-color: orangered;
+    color: white;
+}
+
+.orangeClair {
+    width: 100px;
+    background-color: orange;
+    color: white;
+}
+
+.jaune {
+    width: 100px;
+    background-color: rgb(225, 230, 0);
+}
+
+/*ici on a donné une couleur a nos élèments pour bien visualiser les changements dans leur comportement*/
+
+.jc-evenly  {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    /* si le parent a une hauteur, les enfants on par défaut cette même hauteur : c'est le comportement par défaut de l'align-items,"strech"
+    (étends-toi) */
+}
+
+/*il existe différente valeurs pour justify-content:
+Par défaut la valeur est Flex-start :au début 
+Il existe aussi flex-end : se place à la fin center : au centre
+space-evenly :espaces entre les différents éléments de façon uniforme
+space-around :espace autour des éléments
+space-between : entre les éléments */
+
+.jc-around {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+.jc-between {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.ordre {
+    display: flex;
+    justify-content: space-ordre;
+}
+
+.ordre .rouge {
+    order: -2;
+}
+/*order est une propriété utile en responsive car elle permet de déplacer un élément à une position donnée*/
+.order .orangeClair {
+    order: 2;
+}
+.strech {
+display: flex;
+justify-content: space-between;
+height: 200px;
+align-self: stretch;/* la valeur par défaut */
+}
+
+
+.baseline{
+display: flex;
+justify-content: space-between;
+height: 200px;
+align-self: baseline; 
+
+}
+
+.Flex-end{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: flex-end;/*les divs s'alignet en haut*/
+
+}
+
+.Flex-start{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: flex-start;/*les divs s'alignet en bas*/
+}
+
+.Center{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    align-items: center;/*les divs sont centrées*/
+}

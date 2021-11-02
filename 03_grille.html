@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Une grille en flex</title>
+    <!-- ma feuille de style en externe-->
+    <link rel="stylesheet" href="css/03_grille.css">
+</head>
+<body>
+    <!--début du conteneur-->
+    <div class="conteneur">
+        <header class="row">
+            <div class="col-10 mx-auto">
+                <h1>Une page avec une grille</h1>
+
+            </div>
+         </header><!-- fin du header -->
+
+         <section class="row">
+             <article class="col-3">
+                 <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, laudantium. Quia ex nam accusamus perferendis excepturi ipsum. Rerum necessitatibus harum sequi pariatur id! Sint velit, blanditiis obcaecati nulla cum accusamus.
+                     Nostrum amet cum fugit est magnam voluptate rem eveniet? Impedit consectetur iure odit incidunt blanditiis quas perferendis, iusto deserunt officiis laudantium soluta in. Repellendus eos id velit sit cum aliquid.
+                     Qui quas expedita et doloremque suscipit voluptas blanditiis illum, id aliquam fugit ea nostrum recusandae ipsum debitis cupiditate error dolorem deleniti amet officia itaque. Amet reprehenderit labore error eos numquam!
+                 </p>
+                 </article>
+
+                 <article class="col-3">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, laudantium. Quia ex nam accusamus perferendis excepturi ipsum. Rerum necessitatibus harum sequi pariatur id! Sint velit, blanditiis obcaecati nulla cum accusamus.
+                        Nostrum amet cum fugit est magnam voluptate rem eveniet? Impedit consectetur iure odit incidunt blanditiis quas perferendis, iusto deserunt officiis laudantium soluta in. Repellendus eos id velit sit cum aliquid.
+                        Qui quas expedita et doloremque suscipit voluptas blanditiis illum, id aliquam fugit ea nostrum recusandae ipsum debitis cupiditate error dolorem deleniti amet officia itaque. Amet reprehenderit labore error eos numquam!
+                    </p>
+                    </article>
+
+                    <article class="col-3">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, laudantium. Quia ex nam accusamus perferendis excepturi ipsum. Rerum necessitatibus harum sequi pariatur id! Sint velit, blanditiis obcaecati nulla cum accusamus.
+                            Nostrum amet cum fugit est magnam voluptate rem eveniet? Impedit consectetur iure odit incidunt blanditiis quas perferendis, iusto deserunt officiis laudantium soluta in. Repellendus eos id velit sit cum aliquid.
+                            Qui quas expedita et doloremque suscipit voluptas blanditiis illum, id aliquam fugit ea nostrum recusandae ipsum debitis cupiditate error dolorem deleniti amet officia itaque. Amet reprehenderit labore error eos numquam!
+                        </p>
+                        </article>
+
+                        <article class="col-3">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, laudantium. Quia ex nam accusamus perferendis excepturi ipsum. Rerum necessitatibus harum sequi pariatur id! Sint velit, blanditiis obcaecati nulla cum accusamus.
+                                Nostrum amet cum fugit est magnam voluptate rem eveniet? Impedit consectetur iure odit incidunt blanditiis quas perferendis, iusto deserunt officiis laudantium soluta in. Repellendus eos id velit sit cum aliquid.
+                                Qui quas expedita et doloremque suscipit voluptas blanditiis illum, id aliquam fugit ea nostrum recusandae ipsum debitis cupiditate error dolorem deleniti amet officia itaque. Amet reprehenderit labore error eos numquam!
+                            </p>
+                    </article>
+                </section>
+                <br><br>
+                <section class="colonnes">
+                    <!-- div*12[$] -->
+                    <div class="col-1 brun">1</div>
+                    <div class="col-2 marron">2</div>
+                    <div class="col-3 bordeaux">3</div>
+                    <div class="col-4 rouge">4</div>
+                    <div class="col-5 orange">5</div>
+                    <div class="col-6 orangeClair">6</div>
+                    <div class="col-7 jaune">7</div>
+                    <div class="col-8 vertClair">8</div>
+                    <div class="col-9 vertFonce">9</div>
+                    <div class="col-10 bleuFonce">10</div>
+                    <div class="col-11 bleuClair">11</div>
+                    <div class="col-12 lavande">12</div>
+
+                </section>
+                <!-- afficher 12 divs qui ont la classe col-1 côte à côte -->
+                <!-- donner leur des classes couleurs différentes pour qu'on puisse bien les voir -->
+
+                <section class="row gras">
+                    <!-- div*12[$] -->
+                    <div class="col-1 brun">1</div>
+                    <div class="col-1 marron">2</div>
+                    <div class="col-1 bordeaux">3</div>
+                    <div class="col-1 rouge">4</div>
+                    <div class="col-1 orange">5</div>
+                    <div class="col-1 orangeClair">6</div>
+                    <div class="col-1 jaune">7</div>
+                    <div class="col-1 vertClair">8</div>
+                    <div class="col-1 vertFonce">9</div>
+                    <div class="col-1 bleuFonce">10</div>
+                    <div class="col-1 bleuClair">11</div>
+                    <div class="col-1 lavande">12</div>
+                
+                </section>
+                <!-- afficher deux colonnes la premiére     vec 8 colonnes avec 2 paragraphes avec du 3 lorem et la 2eme doit faire 4 colonnes avec une liste non ordonnée et 3 lorem -->
+
+
+                <section class="row">
+                    <article class="col-8 gauche">
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, soluta voluptate. Ex quam officiis, nostrum nesciunt sunt saepe alias eveniet optio, quas ea non illo pariatur cum officia culpa modi!
+                    Natus eaque iste modi nemo, commodi saepe esse dolor assumenda labore maiores iusto fugit tempora a omnis reiciendis quibusdam quaerat obcaecati. Quia deleniti possimus cumque similique id nihil quis consectetur.
+                    Repellendus quibusdam dolorum numquam cum, magnam praesentium ipsum, quo voluptatibus eveniet labore quos tempora laboriosam excepturi saepe. Nisi ipsam magnam quaerat, fugiat soluta consectetur praesentium earum sed voluptatem atque molestiae. </p>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nostrum adipisci saepe cumque quo, molestias vel accusamus voluptates reiciendis temporibus quisquam, quam tenetur quaerat voluptatibus facere? Hic corporis quas impedit!
+                    Ducimus natus sint excepturi odio fugit aliquid vitae modi repellat ipsum molestias alias harum quod, laudantium recusandae possimus quibusdam et, aliquam voluptatibus commodi deleniti repudiandae, nihil quia nobis culpa. Omnis.
+                    Aperiam, quibusdam. Harum reprehenderit beatae ipsam quam voluptate amet tenetur vel temporibus in ipsum delectus rerum, optio atque suscipit, sequi numquam perspiciatis, quaerat facere deserunt iure laboriosam maiores tempore! Explicabo? </p>
+                </article>
+                   
+                   
+                     <div class="col-4 droite">
+                        <ul >
+                            <li> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nostrum adipisci saepe cumque quo, molestias vel accusamus voluptates reiciendis temporibus quisquam, quam tenetur quaerat voluptatibus facere? Hic corporis quas impedit! </li>
+                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nostrum adipisci saepe cumque quo, molestias vel accusamus voluptates reiciendis temporibus quisquam, quam tenetur quaerat voluptatibus facere? Hic corporis quas impedit!</li>
+                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur nostrum adipisci saepe cumque quo, molestias vel accusamus voluptates reiciendis temporibus quisquam, quam tenetur quaerat voluptatibus facere? Hic corporis quas impedit!</li>
+                        </ul>
+                      </div>
+                    </section>
+                    <br><br>
+                    <section class="row">
+                      <div class="col-4 marron">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut natus in blanditiis exercitationem molestias. Fuga facere animi consequatur! Debitis, sunt. Nam voluptates minima perferendis reprehenderit enim, doloribus ratione quasi incidunt.
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto non impedit vel vero, pariatur sint quas, at ipsam ex culpa hic facilis aut atque adipisci cumque cupiditate, reiciendis quos excepturi?</p></div>
+                      
+                       <div class="col-8 vertClair">
+                           <div class="row-reverse">
+                               <div class="col-4 rouge">1</div>
+                               
+                               <div class="col-4 orange">2</div>
+                               <div class="col-4 jaune">3</div>
+                           </div>
+                          
+                      </div>
+
+                    </section>
+
+
+                         </div><!-- fin du conteneur -->
+    
+</body>
+</html>
